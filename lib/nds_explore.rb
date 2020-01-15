@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   column_index = 0
   while column_index < directors_database[0].length do 
     
-    p directors_database[0][column_index][:title]
+    p directors_database[0][:movies][column_index][:title]
     column_index += 1
   end
 end
